@@ -1,0 +1,35 @@
+text {
+    color: blue
+}
+
+text:hover {
+    color: hotpink
+}
+
+button {
+    color: blue;
+    border-radius: 10px;
+    border-color: blue;
+    background-color: beige;
+    border-width: 2px;
+}
+
+button:hover {
+    color: hotpink;
+    border-color: hotpink
+}
+
+a {
+    color: blue;
+    border-radius: 10px;
+    border-color: blue;
+    border-style: solid;
+    padding: 2px 5px;
+    background-color: beige;
+    border-width: 2px;
+}
+
+a:hover {
+    color: hotpink;
+    border-color: hotpink
+}
