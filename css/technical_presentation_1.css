@@ -1,0 +1,13 @@
+p {
+    color: #33FF00
+}
+
+body {
+    background-color: black;
+    color: #33FF00;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}

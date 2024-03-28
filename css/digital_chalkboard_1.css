@@ -33,3 +33,7 @@ a:hover {
     color: hotpink;
     border-color: hotpink
 }
+
+img {
+    width: 25px;
+}
