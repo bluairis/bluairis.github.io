@@ -13,3 +13,8 @@ h1 {
 #third_paragraph {
     color: chocolate
 }
+
+.class1 {
+    color: black;
+    text-decoration: underline;
+}
