@@ -13,3 +13,13 @@ a:visited {
 a:hover {
     color: darkblue;
 }
+
+h1::first-letter {
+    color: maroon;
+    font-size: 50px;
+}
+
+li::first-letter {
+    font-size: 25px;
+    font-weight: bold;
+}
