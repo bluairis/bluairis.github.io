@@ -7,9 +7,9 @@ a:link {
 }
 
 a:visited {
-    color: darkblue;
+    color: red;  
 }
 
 a:hover {
-    color: red;
+    color: darkblue;
 }
