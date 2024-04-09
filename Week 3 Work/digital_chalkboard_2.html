@@ -4,21 +4,153 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital Chalkboard 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Play:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/digital_chalkboard_2.css">
 </head>
 <body>
-    <h1>Digital Chalkboard 2</h1>
-    <p>Here is a Link the Javascript Wikipedia Page: 
-        <a href="https://en.wikipedia.org/wiki/JavaScript">Javascript Wikipedia</a></p>
+    <!--Nav Bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/Contact.html">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Digital Chalkboards
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="../Week 2 Work/digital_chalkboard_1.html">Digital Chalkboard 1</a></li>
+                  <li><a class="dropdown-item" href="../Week 3 Work/digital_chalkboard_2.html">Digital Chalkboard 2</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Technical Presentations
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="../Week 2 Work/technical_presentation_1.html">Technical Presentation 1</a></li>
+                  <li><a class="dropdown-item" href="../Week 3 Work/technical_presentation_2.html">Technical Presentation 2</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--End Nav Bar-->
+    <div class="container-fluid">
+        <h1>Digital Chalkboard 2</h1>
+        <h3>This is a table of the schools I have attended:</h3>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>School Name</th>
+                    <th>Location</th>
+                    <th>Funding</th>
+                    <th>Grades</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Kildeer Countryside Elementary School</td>
+                    <td>Long Grove, Illinois</td>
+                    <td>Public</td>
+                    <td>1st-5th</td>
+                </tr>
+                <tr>
+                    <td>Woodlawn Middle School</td>
+                    <td>Long Grove, Illinois</td>
+                    <td>Public</td>
+                    <td>6th-8th</td>
+                </tr>
+                <tr>
+                    <td>Adlai E. Stevenson High School</td>
+                    <td>Lincolnshire, Illinois</td>
+                    <td>Public</td>
+                    <td>8th-12th</td>
+                </tr>
+                <tr>
+                    <td>The University of Chicago</td>
+                    <td>Chicago, Illinois</td>
+                    <td>Public</td>
+                    <td>College Freshman - College Senior</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Below I will create 4 lists: </h3>
+        <p>This is a list of what I do to get ready in the morning: </p>
+        <ol class="a">
+            <li class="format">Check my phone</li>
+            <li class="format">Brush my teeth</li>
+            <li class="format">Do skincare</li>
+            <li class="format">Pick an outfit</li>
+            <li class="format">Make my bed</li>
+        </ol>
+        
+        <p>This is a list of what I do to get ready for bed: </p>
+        <ol class="b">
+            <li class="format">Shower</li>
+            <li class="format">Brush my teeth</li>
+            <li class="format">Skincare</li>
+            <li class="format">Put on my jammies</li>
+            <li class="format">Turn off my lights</li>
+        </ol>
 
-    The list below is going to have edited suedo elements
-    <ul>
-        <li>List element 1</li>
-        <li>List element 2</li>
-        <li>List element 3</li>
-        <li>List element 4</li>
-        <li>List element 5</li>
-        <li>List element 6</li>
-    </ul>
+        <p>This is a list of my favorite snacks: </p>
+        <ul class="c">
+            <li class="format">Gushers</li>
+            <li class="format">Pickles</li>
+            <li class="format">Cheese</li>
+            <li class="format">Proscuittio</li>
+            <li class="format">Peanut Butter and Jelly Uncrustables</li>
+        </ul>
+
+        <p>This is a list of my favorite drinks: </p>
+        <ul class="d">
+            <li class="format">Lattes</li>
+            <li class="format">Matcha</li>
+            <li class="format">Frappucinos</li>
+            <li class="format">Coke</li>
+            <li class="format">Sprite</li>
+        </ul>
+
+        <p>Here is a Link the Javascript Wikipedia Page: 
+            <a href="https://en.wikipedia.org/wiki/JavaScript">Javascript Wikipedia</a></p>
+
+        <h3>List Challenge: </h3>
+        <ol>
+            <li>Cars
+                <ul>
+                    <li>Honda</li>
+                    <li>Toytoa</li>
+                    <li>Subaru</li>
+                </ul>
+            </li>
+            <li>Baseball Teams
+                <ul>
+                    <li><a class="link_challenge" href="https://www.mlb.com/cubs">Chicago Cubs</a></li>
+                    <li><a class="link_challenge" href="https://hanshintigers.jp/">Hanshin Tigers</a></li>
+                    <li><a class="link_challenge" href="https://www.kccougars.com/">Kane County Cougars</a></li>
+                </ul>
+            </li>
+        </ol>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

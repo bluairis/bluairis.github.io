@@ -6,6 +6,7 @@ a {
     padding: 2px 5px;
     background-color: beige;
     border-width: 2px;
+    margin: 5px;
 }
 
 a:hover {

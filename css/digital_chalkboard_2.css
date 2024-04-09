@@ -19,7 +19,32 @@ h1::first-letter {
     font-size: 50px;
 }
 
-li::first-letter {
+li.format::first-letter {
     font-size: 25px;
     font-weight: bold;
+}
+
+.table {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+}
+
+.a {
+    list-style-type: lower-roman;
+}
+
+.b {
+    list-style-type: lower-latin;
+}
+
+.c {
+    list-style-type: square;
+}
+
+.d {
+    list-style-type: "$";
+}
+
+a.link_challenge {
+    color: #0096FF;
 }
