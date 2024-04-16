@@ -54,21 +54,136 @@
         </div>
     </nav>
       <!--End Nav Bar-->
+
     <div class="container-fluid">
-        <div class="row justify-content-center">
+        <h1 class="display-3">Technical Presentation 3</h1>
+        <div class="row">
             <div class="col-md">
                 <img src="../Images/baby_pig.jpg" class="img-fluid uniform-four-column-image">
+                Pro Tip 1: You can use the mark tag to <mark>highlight</mark> the text
             </div>
             <div class="col-md">
                 <img src="../Images/baby_hippo.jpg" class="img-fluid uniform-four-column-image">
+                Pro Tip 2: You can use the del tag to <del>cross out</del> the text
             </div>
             <div class="col-md">
                 <img src="../Images/baby_puppy.jpg" class="img-fluid uniform-four-column-image">
+                Pro Tip 3: You can use the em tag to <em>italicize</em> the text
             </div>
             <div class="col-md">
                 <img src="../Images/baby_kitten.jpg" class="img-fluid uniform-four-column-image">
+                Pro Tip 4: You can use the code tag to <code>code</code> within the text
             </div>
         </div>
+        <div class="row">
+            <p>Another cool thing you can do is abbreviate the text using the abbr tag. 
+                For example: I live in the <abbr title="United States of America">USA</abbr>!</p>
+        </div>
+        <div class="row" style="background-color:#66793b;">
+            <div class="col">
+                <img src="../Images/baby_pig.jpg" class="img-fluid rounded-circle">
+            </div>
+            <div class="col">
+                <blockquote class="blockquote">
+                    <p><br><strong>I am a piggy</strong></p>
+                    <footer class="blockquote-footer" style="color:white">Piggy</footer>
+                </blockquote>
+            </div>
+        </div>
+
+        <h3>Check Out my Accordion:</h3>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Mystery Item #1
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Pigs</strong> are highly intelligent animals, often ranking alongside dogs and even primates in cognitive abilities. In fact, they're known to be incredibly adaptable and can learn tricks and commands as quickly as dogs can. So, next time you see a pig, remember they might just be as smart as your furry canine friend!
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Mystery Item #2
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Hippos</strong> might seem like slow-moving creatures, but they are actually surprisingly fast, especially in water. Despite their hefty size (up to several tons), they can easily outrun humans on land when they feel threatened. However, perhaps the most fascinating fact about hippos is that they secrete a reddish oily substance from their skin, often referred to as "blood sweat." This secretion acts as a moisturizer and sunblock for their sensitive skin, and it also has antibacterial properties that help protect them from infections. So, the next time you see a hippo looking a little red, it's not blood – it's just their unique way of staying healthy and protected!
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Mystery Item #3
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Dogs</strong> have an extraordinary sense of smell, with some breeds capable of detecting scents up to 100,000 times better than humans. This incredible olfactory ability is why they're employed in various roles such as search and rescue, detecting drugs and explosives, and even diagnosing certain medical conditions like cancer. Additionally, dogs have a specialized organ called the vomeronasal organ, also known as the Jacobson's organ, which enhances their ability to detect pheromones and other chemical signals, adding another layer to their remarkable sense of smell. So, next time your dog seems to be sniffing everything in sight, remember they're just using their superpower to explore the world!
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Mystery Item #4
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Cats</strong> have a unique way of communicating with humans – they often use a combination of vocalizations, body language, and purring to express themselves. While many people associate purring with contentment, cats also purr when they're in pain, anxious, or even hungry. Scientists believe that purring may have a healing effect on cats, as the low-frequency vibrations produced can help them relax and reduce stress. Additionally, cats have a wide range of vocalizations, with some studies suggesting they can produce over 100 different sounds, each with its own meaning. So, next time your feline friend starts purring or meowing, pay attention – they might be trying to tell you something!
+                  </div>
+                </div>
+              </div>
+          </div>
+        
+          <h3>Check Out my Automatic Carousel</h3>
+          <p><em>psst...it can also be moved with buttons</em><p>
+          <div class="container-fluid" style="width: 500px; margin: 15px;">
+          <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="2000">
+                <img src="../Images/baby_pig.jpg" class="d-block w-100 uniform-four-column-image">
+                <div class="carousel-caption">Piggy!</div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="../Images/baby_hippo.jpg" class="d-block w-100 uniform-four-column-image">
+                <div class="carousel-caption">Hippo!</div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="../Images/baby_puppy.jpg" class="d-block w-100 uniform-four-column-image">
+                <div class="carousel-caption">Puppy!</div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="../Images/baby_kitten.jpg" class="d-block w-100 uniform-four-column-image">
+                <div class="carousel-caption">Kitty!</div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+
+        <h1>Just So You Know...</h1>
+        <h3>Boostrap Comes with Cool Buttons</h3>
+        <p>They come in different colors and with different fill styles and in different sizes</p>
+        <button type="button" class="btn btn-primary">Primary Fill</button>
+        <button type="button" class="btn btn-outline-success">Success Outline</button>
+        <button type="button" class="btn btn-secondary btn-lg">Secondary Fill Large</button>
+        <button type="button" class="btn btn-outline-warning btn-sm">Warning Outline Small</button>
+
 
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
