@@ -33,4 +33,13 @@ a.link:focus {
 
 .navbar {
   background-color: #800000;
+}
+
+.col-sm {
+  background-color: #D6D6CE;
+  margin: 15px;
+}
+
+.row {
+  margin-right: 15px;
 }/*# sourceMappingURL=uchicago_format.css.map */

@@ -1,7 +1,7 @@
 $uchicago_maroon: #800000;
 $uchicago_dark_grey: #767676;
 $uchicago_light_grey: #D6D6CE;
-$margin-right: 15px;
+$margin: 15px;
 
 h1 {
     color: black;
@@ -22,7 +22,7 @@ p {
 a.link {
     color: white;
     text-decoration: none;
-    margin-right: $margin-right;
+    margin-right: $margin;
     margin-left: 0;
 }
 
@@ -38,4 +38,13 @@ a.link:focus{
 
 .navbar{
     background-color: $uchicago_maroon
+}
+
+.col-sm {
+    background-color: $uchicago_light_grey;
+    margin: $margin;
+}
+
+.row {
+    margin-right: $margin
 }
