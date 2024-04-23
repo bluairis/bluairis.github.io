@@ -111,7 +111,7 @@ Player.prototype =
     skipTo: function(index) {
         var self = this;
 
-        if (self.palylist[self.index].howl) {
+        if (self.playlist[self.index].howl) {
             self.playlist[self.index].howl.stop();
         }
 
