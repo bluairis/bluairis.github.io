@@ -33,7 +33,7 @@ function obtainUser() {
     alert("Hello " + user_name + "!");
 }
 
-function math() {
+function animalNoises() {
     do {
         var opperation = prompt("What is your favorite pet? Please enter dog, cat, bird, or fish")
     }
@@ -59,4 +59,4 @@ function math() {
 document.getElementById("button1").addEventListener("click", greeting);
 document.getElementById("button2").addEventListener("click", changer);
 document.getElementById("button3").addEventListener("click", obtainUser);
-document.getElementById("button4").addEventListener("click", math);
+document.getElementById("button4").addEventListener("click", animalNoises);
