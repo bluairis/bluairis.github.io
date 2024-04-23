@@ -150,7 +150,17 @@ var player = new Player
         title: 'Relaxing Fire Sound',
         file: 'fireplace_relaxing_sound',
         howl: null
-    }
+    },
+    {
+        title: 'Mountain Forest Relaxing Sound',
+        file: 'mountain_forest_relaxing_sound',
+        howl: null
+    },
+    {
+        title: 'Mountain Forest Relaxing Sound',
+        file: 'mountain_forest_relaxing_sound',
+        howl: null
+    },
 ]);
 
 playControl.style.display = "inline-block";
