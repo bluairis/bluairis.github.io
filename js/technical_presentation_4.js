@@ -26,7 +26,7 @@ var Player = function(playlist){
     {
         var div=document.createElement('div');
         div.className = 'list-song';
-        div.innerHTML = song.title;
+        div.innerHTML = song.number + ": " + song.title;
         div.onclick = function()
         {
             player.skipTo(playlist.indexOf(song));
@@ -142,24 +142,34 @@ Player.prototype =
 var player = new Player
 ([
     {
-        title: 'Relaxing Water Sound',
+        title: 'Water',
         file: 'water_relaxing_sound',
-        howl: null
+        howl: null,
+        number: 1,
     },
     {
-        title: 'Relaxing Fire Sound',
+        title: 'Fire',
         file: 'fireplace_relaxing_sound',
-        howl: null
+        howl: null,
+        number: 2,
     },
     {
-        title: 'Mountain Forest Relaxing Sound',
+        title: 'Mountain Forest',
         file: 'mountain_forest_relaxing_sound',
-        howl: null
+        howl: null,
+        number: 3,
     },
     {
-        title: 'Mountain Forest Relaxing Sound',
-        file: 'mountain_forest_relaxing_sound',
-        howl: null
+        title: 'Wind Chimes',
+        file: 'wind_chimes_relaxing_sound',
+        howl: null,
+        number: 4,
+    },
+    {
+        title: 'Peaceful Drone',
+        file: 'peaceful_drone_relaxing_sound',
+        howl: null,
+        number: 5,
     },
 ]);
 

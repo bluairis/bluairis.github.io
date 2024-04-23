@@ -67,30 +67,39 @@
           <button id="playPause" class="btn btn-dark"> <i class="bi bi-play-fill"></i>/<i class="bi bi-pause"></i></button>
           <br><br><br>
           
-          <div class="container">
-
+          <div class="container" style="background-color: maroon; border-radius: 25px; color: white">
+            <br>
             <h1>Relaxing Sound Shuffler:</h1>
             <div class="music-player">
 
             <div id="title">
-              <span id="track"></span>
-              <div id="timer">0:00</div>
-              <div id="duration">0:00</div>
+              <div class="row">
+                <div class="col"><div id="timer">0:00 </div></div>
+                <div class="col"><span id="track"></span></div> 
+                <div class="col"><div id="duration">0:00</div></div> 
+              </div>
+              
             </div>
 
             <div class="controlsOuter">
               <div class="controlsInner">
                 <div id="loading"></div>
-                <div class="btn btn-info" id="previousControl"><i class="bi bi-skip-backward-fill"></i></div>
-                <div class="btn btn-info" id="playControl"><i class="bi bi-play-fill"></i></div>
-                <div class="btn btn-info" id="pauseControl"><i class="bi bi-pause"></i></div>
-                <div class="btn btn-info" id="nextControl"><i class="bi bi-skip-forward-fill"></i></div>
+                <div class="btn btn-dark" id="previousControl"><i class="bi bi-skip-backward-fill"></i></div>
+                <div class="btn btn-dark btn-lg" id="playControl"><i class="bi bi-play-fill" style="padding: 10px;"></i></div>
+                <div class="btn btn-dark btn-lg" id="pauseControl"><i class="bi bi-pause" style="padding: 10px;"></i></div>
+                <div class="btn btn-dark" id="nextControl"><i class="bi bi-skip-forward-fill"></i></div>
               </div>
             </div>
 
-            <div id="playlist">
+            <br>
+
+            <div id="playlist" style="background-color: black; border-radius: 25px;">
+              <h2>Playlist:</h2>
               <div id="list"></div>
+              <br>
             </div>
+
+            <br>
 
           </div>
 
