@@ -67,13 +67,13 @@ Player.prototype =
 
         if (sound.state() === 'loaded')
         {
-            playBtn.style.display = "none";
-            pauseBtn.style.display = "block";
+            playControl.style.display = "none";
+            pauseControl.style.display = "inline-block";
         }
         else
         {
-            playBtn.style.display = "none";
-            pauseBtn.style.display = "block";
+            playControl.style.display = "none";
+            pauseControl.style.display = "inline-block";
         }
         self.index = index
     },
@@ -83,8 +83,8 @@ Player.prototype =
         var sound = self.playlist[self.index].howl;
         sound.pause();
 
-        playBtn.style.display = "block";
-        pauseBtn.style.display = "none";
+        playControl.style.display = "inline-block";
+        pauseControl.style.display = "none";
     },
 
     skip: function(direction)
@@ -152,6 +152,9 @@ var player = new Player
         howl: null
     }
 ]);
+
+playControl.style.display = "inline-block";
+pauseControl.style.display = "none";
 
 playControl.addEventListener('click', function() {
     player.play();
