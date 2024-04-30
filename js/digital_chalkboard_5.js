@@ -23,7 +23,5 @@ function getAndSort() {
     }
 
     const output = document.getElementById("sortingInputedOutput");
-    if (!output.innerHTML) {
-        output.innerHTML = `<br>The list you inputed was: [${listToSort}].<br>I sorted it like this: [${listToSort.toSorted()}]`;
-    }
+    output.innerHTML = `<br>The list you inputed was: [${listToSort}].<br>I sorted it like this: [${listToSort.toSorted()}]`;
 }
