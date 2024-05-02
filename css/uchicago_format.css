@@ -54,4 +54,38 @@ a.link:focus {
   height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.uniform-two-column-image {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 5px;
+}
+
+.internal-container {
+  padding: 20px;
+  margin-top: 20px;
+  outline: 2px solid black;
+}
+
+.icon-button {
+  background-color: #800000;
+  color: white;
+}
+
+.icon-button:hover {
+  box-shadow: 0 0 10px 0 #800000 inset, 0 0 30px 5px #800000;
+  color: white;
+}
+
+.index-link {
+  color: #800000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.index-link:hover {
+  color: #800000;
+  text-decoration: underline;
 }/*# sourceMappingURL=uchicago_format.css.map */

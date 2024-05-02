@@ -59,3 +59,36 @@ a.link:focus{
     height: 300px;
     object-fit: cover;
 }
+
+.uniform-two-column-image {
+    width: 100%;
+    object-fit: cover;
+    padding: 5px;
+}
+
+.internal-container {
+    padding: 20px; 
+    margin-top: 20px; 
+    outline: 2px solid black;
+}
+
+.icon-button {
+    background-color: $uchicago_maroon;
+    color: white;
+}
+
+.icon-button:hover {
+    box-shadow: 0 0 10px 0 $uchicago_maroon inset, 0 0 30px 5px $uchicago_maroon;
+    color: white;
+}
+
+.index-link {
+    color: $uchicago_maroon;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.index-link:hover {
+    color: $uchicago_maroon;
+    text-decoration: underline;
+}
