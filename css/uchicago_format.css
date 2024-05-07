@@ -88,4 +88,17 @@ a.link:focus {
 .index-link:hover {
   color: #800000;
   text-decoration: underline;
+}
+
+.maroon_text {
+  color: #800000;
+}
+
+.unordered_no_bullets {
+  list-style-type: none;
+}
+
+.maroon_bar {
+  background-color: #800000;
+  color: white;
 }/*# sourceMappingURL=uchicago_format.css.map */

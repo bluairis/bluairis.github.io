@@ -92,3 +92,16 @@ a.link:focus{
     color: $uchicago_maroon;
     text-decoration: underline;
 }
+
+.maroon_text {
+    color: $uchicago_maroon;
+}
+
+.unordered_no_bullets {
+    list-style-type: none;
+}
+
+.maroon_bar {
+    background-color: $uchicago_maroon;
+    color: white;
+}
