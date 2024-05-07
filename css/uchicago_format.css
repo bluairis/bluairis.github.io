@@ -101,4 +101,9 @@ a.link:focus {
 .maroon_bar {
   background-color: #800000;
   color: white;
+}
+
+.active {
+  color: white;
+  font-weight: bold;
 }/*# sourceMappingURL=uchicago_format.css.map */
