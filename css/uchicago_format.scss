@@ -114,7 +114,9 @@ a.link:focus{
 .footer {
     background-color: $uchicago_dark_grey;
     width: 100%;
-    position: fixed;
-    left: 0;
-    bottom: 0;
+    position: absolute;
+}
+
+.container-content {
+    min-height: calc(100vh - 150px);
 }
