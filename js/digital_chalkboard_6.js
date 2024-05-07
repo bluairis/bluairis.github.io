@@ -1,20 +1,24 @@
-var map = L.map('map').setView([41.79, -87.6], 17);
+var map = L.map('map').setView([41.79055280795787, -87.59965896606447], 17);
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 25,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
 
-var marker = L.marker([41.79, -87.6]).addTo(map);
+var gob = L.marker([41.78900236843224, -87.59997278451922]).addTo(map);
+var harper = L.marker([41.78798274136456, -87.59928345680238]).addTo(map);
+var hg = L.marker([41.79126017689407, -87.598315179348]).addTo(map);
+var ex = L.marker([41.792554312499895, -87.5993759930134]).addTo(map);
+var cobb = L.marker([41.78913035970065, -87.60095179080963]).addTo(map);
 
-// var circle = L.circle([41.7900005, -87.6000007558], {
-//     color: 'red',
-//     fillColor: '#f03',
-//     fillOpacity: 0.5,
-//     radius: 20
-// }).addTo(map);
+var quad = L.circle([41.78958688897459, -87.59966164827348], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 28
+}).addTo(map);
 
-var polygon = L.polygon([
+var reg = L.polygon([
     [41.791799681853355, -87.60009147226812],
     [41.7917984319919, -87.60031946003437],  
     [41.79172931461588, -87.60031996294856],
@@ -76,9 +80,39 @@ var polygon = L.polygon([
     [41.791876173327594, -87.60009147226812]
 ]).addTo(map);
 
-marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
-//circle.bindPopup("I am a circle.");
-polygon.bindPopup("This is the Regenstein Library.");
+var crerar = L.polygon([
+    [41.790124283196846, -87.60254502296448],
+    [41.790122283366244, -87.6030680537224],
+    [41.79035226347589, -87.6030680537224],
+    [41.79035226347589, -87.6031082868576],
+    [41.790934209459245, -87.60311633348466],
+    [41.7909362092645, -87.60253161191942],
+    [41.790358262945986, -87.60251551866533],
+    [41.790358262945986, -87.60255306959154]
+]).addTo(map);
+
+var harperlib = L.polygon([
+    [41.78809042324829, -87.60005861520769],
+    [41.78809042324829, -87.59996742010118],
+    [41.788064705856044, -87.59996742010118],
+    [41.788071346131474, -87.59926266968258],
+    [41.78810042271759, -87.59926468133929],
+    [41.78810170389949, -87.59912252426147],
+    [41.787884433833945, -87.59912252426147],
+    [41.787884855687956, -87.60005526244642]
+]).addTo(map);
+
+gob.bindPopup("I am the Grounds of Being Student Run Coffee Shop").openPopup();
+harper.bindPopup("I am the Harper Cafe Student Run Coffee Shop").openPopup();
+hg.bindPopup("I am the Hallowed Grounds Student Run Coffee Shop").openPopup();
+ex.bindPopup("I am the Ex Libris Cafe Student Run Coffee Shop").openPopup();
+cobb.bindPopup("I am the Cobb Student Run Coffee Shop").openPopup();
+
+quad.bindPopup("This is the center of the quad.");
+
+reg.bindPopup("This is the Regenstein Library.");
+crerar.bindPopup("This is the John Crerar Library.");
+harperlib.bindPopup("This is the Harper Library.");
 
 var popup = L.popup()
     .setLatLng([41.789568890346075, -87.59966969490053])
