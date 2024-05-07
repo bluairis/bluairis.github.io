@@ -110,3 +110,11 @@ a.link:focus{
     color: white;
     font-weight: bold;
 }
+
+.footer {
+    background-color: $uchicago_dark_grey;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
