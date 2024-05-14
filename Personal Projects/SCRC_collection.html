@@ -18,32 +18,44 @@
     <!--End Nav Bar-->
     <div class="container-fluid container-content">
 
-      <h1>Text 1</h1>
-      
-      <div class="w3-container">
-        <p>Click on the image to display it in full size:</p>
+      <h1>Une Analyse Poussée de Deux Textes du SCRC</h1>
 
-        <img src="../Images/404_page_cover.jpg" style="width:30%;cursor:zoom-in"
-        onclick="document.getElementById('modal01').style.display='block'">
-      
-        <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
-          <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
-          <div class="w3-modal-content w3-animate-zoom">
-            <img src="../Images/404_page_cover.jpg" style="width:100%">
-          </div>
-        </div>
+      <div class="switch">
+        <input
+          id="language-toggle"
+          class="check-toggle check-toggle-round-flat"
+          type="checkbox" />
+        <label for="language-toggle"></label>
+        <span class="on">FR</span>
+        <span class="off">EN</span>
       </div>
+      
+      <a href="https://catalog.lib.uchicago.edu/vufind/Record/2427262?sid=62460221" class="bold-maroon-link">La dissection des parties du corps humain divisee en trois livres</a> 
+      <div class="row">
+        <div class="col" style="width:80%">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pretium elementum leo, ac luctus lacus venenatis sed. 
+          Proin sit amet lorem scelerisque, egestas risus ullamcorper, tristique dolor. Phasellus nisi mauris, faucibus in dui vitae, 
+          semper aliquam ipsum. Proin at nisi ut ipsum mattis elementum. Phasellus ac tellus vehicula turpis vulputate vehicula.
+          Vestibulum facilisis venenatis auctor. Nulla euismod leo ut metus condimentum pellentesque. Aliquam et risus tempus, 
+          interdum augue et, tincidunt sem. Aenean scelerisque eu mauris placerat placerat. Vestibulum ante ipsum primis in faucibus 
+          orci luctus et ultrices posuere cubilia curae; Aliquam a tellus a tellus pretium ornare nec quis felis. Sed condimentum 
+          libero interdum rutrum consequat. Phasellus porta nisi vitae dui dictum consequat.</p>
+        </div>
+          <div class="col" style="width:20%">
+            <div class="w3-container">
+              <img class="hover-opacity img-fluid" src="../Images/SCRC Dissecion/Cover.png" style="cursor:zoom-in; width: 200px"
+              onclick="document.getElementById('modal01').style.display='block'">
+            
+              <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+                <span class="w3-button w3-black w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+                <div class="w3-modal-content w3-animate-zoom">
+                  <img src="../Images/SCRC Dissecion/Cover.png" style="width:100%">
+                </div>
+              </div>
+          </div>
+          </div>
+          </div>
 
-      <br><br>
-      <a href="https://catalog.lib.uchicago.edu/vufind/Record/2427262?sid=62460221" class="bold-maroon-link">La dissection des parties du corps humain divisee en trois livres</a>
-
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pretium elementum leo, ac luctus lacus venenatis sed. 
-        Proin sit amet lorem scelerisque, egestas risus ullamcorper, tristique dolor. Phasellus nisi mauris, faucibus in dui vitae, 
-        semper aliquam ipsum. Proin at nisi ut ipsum mattis elementum. Phasellus ac tellus vehicula turpis vulputate vehicula.
-        Vestibulum facilisis venenatis auctor. Nulla euismod leo ut metus condimentum pellentesque. Aliquam et risus tempus, 
-        interdum augue et, tincidunt sem. Aenean scelerisque eu mauris placerat placerat. Vestibulum ante ipsum primis in faucibus 
-        orci luctus et ultrices posuere cubilia curae; Aliquam a tellus a tellus pretium ornare nec quis felis. Sed condimentum 
-        libero interdum rutrum consequat. Phasellus porta nisi vitae dui dictum consequat.</p>
 
         <div class="container-fluid" style="width: 400px; margin-left: 15px; margin-bottom: 15px;">
         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
@@ -88,6 +100,18 @@
     <!--Footer-->
     <div id="footer-placeholder"></div>
     <!--End Footer-->
+
+    <script>
+      document.getElementById("language-toggle").addEventListener("click", myFunction);
+
+function myFunction() {
+  if (document.getElementById("language-toggle").checked) {
+    window.open("https://bluairis-github-io.translate.goog/Personal%20Projects/SCRC_collection.html?_x_tr_sl=fr&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp", "_blank");
+  } else {
+    window.open("/Personal Projects/SCRC_collection.html", "_blank");
+  }
+}
+    </script>
     
     <script src="/js/nav.js"></script>
     <script src="/js/footer.js"></script>
