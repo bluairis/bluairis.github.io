@@ -115,7 +115,7 @@ a.link:focus {
 }
 
 .container-content {
-  min-height: calc(100vh - 150px);
+  min-height: calc(100vh - 105px);
 }
 
 .book-accordion {
