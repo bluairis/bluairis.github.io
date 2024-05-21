@@ -21,6 +21,20 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     function parseXML(sourceXML) {
-      
+      let objectData = sourceXML.querySelectorAll("spatialUnit"); //tag should be found in the XML
+
+      objectData.forEach((element, index) => {
+        let newRow = document.createElement("tr");
+        newRow.id = "row"+index;
+        document.getElementById("myTableBody").appendChild(newRow); //linking it to the html
+        let newCol1 = document.createElement("td");
+        newCol1.innerHTML = element.children[0].children[0].innerHTML
+        document.getElementById("row"+index).appendChild(newCol1) //uses the row defined on line 28
+
+        //repeat for next col
+        let newCol2 = document.createElement("td");
+        newCol2.innerHTML = element.children[4].children[6].children[1].innerHTML
+        document.getElementById("row"+index).appendChild(newCol2) //uses the row defined on line 28
+      });
     };
 });
