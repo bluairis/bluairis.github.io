@@ -1,0 +1,1010 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl/ochre.xsl" ?>
+<result>
+  <ochre belongsTo="RSTI" publicationDateTime="2020-07-08T13:13:12" uuid="a6e6049c-66dc-43ee-968d-e74c4909f496" uuidBelongsTo="46ccab46-9c3f-4448-8476-2bf18236791e">
+      <items>
+        <spatialUnit n="0" uuid="6f18e3a7-a396-46d9-85cb-92674c24cfc0">
+          <identification>
+            <label>RS 15.001</label>
+          </identification>
+          <description>Tablet, Alphabetic Ugaritic</description>
+          <associated_desc>List of herders and assistants</associated_desc>
+          <observation observationNo="Obs. 1"/>
+          <properties>
+            <property>
+              <label uuid="7ed72a30-14a2-df6f-a2c9-76295cdb4bdb">Object type</label>
+              <value uuid="20a05d15-12e1-44cd-542f-c1f6188fa026">Tablet</value>
+            </property>
+            <property>
+              <label uuid="1593a756-6733-4de8-a056-e4b546be202e">Museum Number</label>
+              <value>DO 3894</value>
+            </property>
+            <property>
+              <label uuid="8ab9caea-aa80-4bae-a359-d1b03eddddf4">Full TEO Findspot</label>
+              <value>Palais Royal, pièce 53 (Archives Est), p.t. 72, 73, à 0,70</value>
+            </property>
+            <property>
+              <label uuid="1db231a7-a055-d5c6-08a8-b06022c8daec">Associated text</label>
+              <value uuid="69d7c01d-7a04-4844-8d2e-10e2ce12cdb1">RS 15.001</value>
+            </property>
+            <property>
+              <label uuid="108422f2-ffc8-4ed4-9863-815ef0cee189">Script</label>
+              <value uuid="d9deb910-2c10-4249-ae27-f0d85c5ca3e4">Alphabetic</value>
+            </property>
+            <property>
+              <label uuid="f72f1b40-2602-57fe-9b34-351d7d4df00e">Language</label>
+              <value uuid="fd10e240-1794-821a-0e92-0d5c66b9b996">Ugaritic</value>
+            </property>
+            <property>
+              <label uuid="b572a357-3007-41e7-9ec1-1f3e4cda5edf">Length</label>
+              <value>98 mm</value>
+            </property>
+            <property>
+              <label uuid="a5983c8f-06c1-4d20-9e05-fdde87ad607f">Width</label>
+              <value>72 mm</value>
+            </property>
+            <property>
+              <label uuid="5160324a-d1cb-4c3a-aa29-9bdd19c00927">Thickness</label>
+              <value>32 mm</value>
+            </property>
+            <property>
+              <label uuid="3aa299da-bf90-477f-bad0-15b83cf8a61b">Size</label>
+              <value>98 x 72 x 32</value>
+            </property>
+          </properties>
+        </spatialUnit>
+        <spatialUnit n="0" uuid="f37bf4b0-a017-48bc-af71-badd7faa5864">
+          <identification>
+            <label>RS 15.002</label>
+          </identification>
+          <description>Tablet, Alphabetic Ugaritic</description>
+          <associated_desc>List of proper names</associated_desc>
+          <observation observationNo="Obs. 1"/>
+          <properties>
+            <property>
+              <label uuid="7ed72a30-14a2-df6f-a2c9-76295cdb4bdb">Object type</label>
+              <value uuid="20a05d15-12e1-44cd-542f-c1f6188fa026">Tablet</value>
+            </property>
+            <property>
+              <label uuid="1593a756-6733-4de8-a056-e4b546be202e">Museum Number</label>
+              <value>DO 3895</value>
+            </property>
+            <property>
+              <label uuid="8ab9caea-aa80-4bae-a359-d1b03eddddf4">Full TEO Findspot</label>
+              <value>Palais Royal, pièce 53 (Archives Est), p.t. 72, 73, à 0,70</value>
+            </property>
+            <property>
+              <label uuid="1db231a7-a055-d5c6-08a8-b06022c8daec">Associated text</label>
+              <value uuid="4c733e09-2bb0-4baa-af98-2dd00b0bd360">RS 15.002</value>
+            </property>
+            <property>
+              <label uuid="108422f2-ffc8-4ed4-9863-815ef0cee189">Script</label>
+              <value uuid="d9deb910-2c10-4249-ae27-f0d85c5ca3e4">Alphabetic</value>
+            </property>
+            <property>
+              <label uuid="f72f1b40-2602-57fe-9b34-351d7d4df00e">Language</label>
+              <value uuid="fd10e240-1794-821a-0e92-0d5c66b9b996">Ugaritic</value>
+            </property>
+            <property>
+              <label uuid="b572a357-3007-41e7-9ec1-1f3e4cda5edf">Length</label>
+              <value>53 mm</value>
+            </property>
+            <property>
+              <label uuid="a5983c8f-06c1-4d20-9e05-fdde87ad607f">Width</label>
+              <value>45 mm</value>
+            </property>
+            <property>
+              <label uuid="5160324a-d1cb-4c3a-aa29-9bdd19c00927">Thickness</label>
+              <value>20 mm</value>
+            </property>
+            <property>
+              <label uuid="3aa299da-bf90-477f-bad0-15b83cf8a61b">Size</label>
+              <value>53 x 45 x 20</value>
+            </property>
+          </properties>
+        </spatialUnit>
+        <spatialUnit n="0" uuid="59b38569-26fd-4db4-aaff-b87ca0ec3393">
+          <identification>
+            <label>RS 15.003</label>
+          </identification>
+          <description>Tablet, Alphabetic Ugaritic</description>
+          <associated_desc>List of names who have received wool</associated_desc>
+          <observation observationNo="Obs. 1"/>
+          <properties>
+            <property>
+              <label uuid="7ed72a30-14a2-df6f-a2c9-76295cdb4bdb">Object type</label>
+              <value uuid="20a05d15-12e1-44cd-542f-c1f6188fa026">Tablet</value>
+            </property>
+            <property>
+              <label uuid="1593a756-6733-4de8-a056-e4b546be202e">Museum Number</label>
+              <value>DO 3896</value>
+            </property>
+            <property>
+              <label uuid="8ab9caea-aa80-4bae-a359-d1b03eddddf4">Full TEO Findspot</label>
+              <value>Palais Royal, pièce 53 (Archives Est), p.t. 72, 73, à 0,70</value>
+            </property>
+            <property>
+              <label uuid="1db231a7-a055-d5c6-08a8-b06022c8daec">Associated text</label>
+              <value uuid="59785cc5-14e9-40e1-9e51-2e19a52ed55a">RS 15.003</value>
+            </property>
+            <property>
+              <label uuid="108422f2-ffc8-4ed4-9863-815ef0cee189">Script</label>
+              <value uuid="d9deb910-2c10-4249-ae27-f0d85c5ca3e4">Alphabetic</value>
+            </property>
+            <property>
+              <label uuid="f72f1b40-2602-57fe-9b34-351d7d4df00e">Language</label>
+              <value uuid="fd10e240-1794-821a-0e92-0d5c66b9b996">Ugaritic</value>
+            </property>
+            <property>
+              <label uuid="b572a357-3007-41e7-9ec1-1f3e4cda5edf">Length</label>
+              <value>45 mm</value>
+            </property>
+            <property>
+              <label uuid="a5983c8f-06c1-4d20-9e05-fdde87ad607f">Width</label>
+              <value>65 mm</value>
+            </property>
+            <property>
+              <label uuid="5160324a-d1cb-4c3a-aa29-9bdd19c00927">Thickness</label>
+              <value>18 mm</value>
+            </property>
+            <property>
+              <label uuid="3aa299da-bf90-477f-bad0-15b83cf8a61b">Size</label>
+              <value>45 x 65 x 18</value>
+            </property>
+          </properties>
+        </spatialUnit>
+        <spatialUnit n="0" uuid="da323f5b-f5b3-400a-944a-b1e063aea9c7">
+          <identification>
+            <label>RS 15.004</label>
+          </identification>
+          <description>Tablet, Alphabetic Ugaritic</description>
+          <associated_desc>A short list of garments with prices/values</associated_desc>
+          <observation observationNo="Obs. 1"/>
+          <properties>
+            <property>
+              <label uuid="7ed72a30-14a2-df6f-a2c9-76295cdb4bdb">Object type</label>
+              <value uuid="20a05d15-12e1-44cd-542f-c1f6188fa026">Tablet</value>
+            </property>
+            <property>
+              <label uuid="1593a756-6733-4de8-a056-e4b546be202e">Museum Number</label>
+              <value>DO 3897</value>
+            </property>
+            <property>
+              <label uuid="8ab9caea-aa80-4bae-a359-d1b03eddddf4">Full TEO Findspot</label>
+              <value>Palais Royal, pièce 53 (Archives Est), p.t. 72, 73, à 0,70</value>
+            </property>
+            <property>
+              <label uuid="1db231a7-a055-d5c6-08a8-b06022c8daec">Associated text</label>
+              <value uuid="6cc95834-f2e8-4be3-9ede-26462fa3aa48">RS 15.004</value>
+            </property>
+            <property>
+              <label uuid="108422f2-ffc8-4ed4-9863-815ef0cee189">Script</label>
+              <value uuid="d9deb910-2c10-4249-ae27-f0d85c5ca3e4">Alphabetic</value>
+            </property>
+            <property>
+              <label uuid="f72f1b40-2602-57fe-9b34-351d7d4df00e">Language</label>
+              <value uuid="fd10e240-1794-821a-0e92-0d5c66b9b996">Ugaritic</value>
+            </property>
+            <property>
+              <label uuid="b572a357-3007-41e7-9ec1-1f3e4cda5edf">Length</label>
+              <value>65 mm</value>
+            </property>
+            <property>
+              <label uuid="a5983c8f-06c1-4d20-9e05-fdde87ad607f">Width</label>
+              <value>56 mm</value>
+            </property>
+            <property>
+              <label uuid="5160324a-d1cb-4c3a-aa29-9bdd19c00927">Thickness</label>
+              <value>23 mm</value>
+            </property>
+            <property>
+              <label uuid="3aa299da-bf90-477f-bad0-15b83cf8a61b">Size</label>
+              <value>65 x 56 x 23</value>
+            </property>
+          </properties>
+        </spatialUnit>
+        <spatialUnit n="0" uuid="97eff0fd-59bf-4674-ab22-4670193aca20">
+          <identification>
+            <label>RS 15.005</label>
+          </identification>
+          <description>Tablet, Alphabetic Ugaritic</description>
+          <associated_desc>A list of three people, each standing in for or possibly subordinate to another person</associated_desc>
+          <observation observationNo="Obs. 1"/>
+          <properties>
+            <property>
+              <label uuid="7ed72a30-14a2-df6f-a2c9-76295cdb4bdb">Object type</label>
+              <value uuid="20a05d15-12e1-44cd-542f-c1f6188fa026">Tablet</value>
+            </property>
+            <property>
+              <label uuid="1593a756-6733-4de8-a056-e4b546be202e">Museum Number</label>
+              <value>DO 3898</value>
+            </property>
+            <property>
+              <label uuid="8ab9caea-aa80-4bae-a359-d1b03eddddf4">Full TEO Findspot</label>
+              <value>Palais Royal, pièce 53 (Archives Est), p.t. 72, 73, à 0,70</value>
+            </property>
+            <property>
+              <label uuid="1db231a7-a055-d5c6-08a8-b06022c8daec">Associated text</label>
+              <value uuid="135f2304-bc7f-40c0-979f-cdd68f2db1ea">RS 15.005</value>
+            </property>
+            <property>
+              <label uuid="108422f2-ffc8-4ed4-9863-815ef0cee189">Script</label>
+              <value uuid="d9deb910-2c10-4249-ae27-f0d85c5ca3e4">Alphabetic</value>
+            </property>
+            <property>
+              <label uuid="f72f1b40-2602-57fe-9b34-351d7d4df00e">Language</label>
+              <value uuid="fd10e240-1794-821a-0e92-0d5c66b9b996">Ugaritic</value>
+            </property>
+            <property>
+              <label uuid="b572a357-3007-41e7-9ec1-1f3e4cda5edf">Length</label>
+              <value>45 mm</value>
+            </property>
+            <property>
+              <label uuid="a5983c8f-06c1-4d20-9e05-fdde87ad607f">Width</label>
+              <value>60 mm</value>
+            </property>
+            <property>
+              <label uuid="5160324a-d1cb-4c3a-aa29-9bdd19c00927">Thickness</label>
+              <value>22 mm</value>
+            </property>
+            <property>
+              <label uuid="3aa299da-bf90-477f-bad0-15b83cf8a61b">Size</label>
+              <value>45 x 60 x 22</value>
+            </property>
+          </properties>
+        </spatialUnit>
+        <spatialUnit n="0" uuid="97065eac-afc6-4756-bd5b-e379ab98bb82">
+          <identification>
+            <label>RS 15.006</label>
+          </identification>
+          <description>Tablet, Alphabetic Ugaritic</description>
+          <associated_desc>A list of 13 proper names categorized as bdlm</associated_desc>
+          <observation observationNo="Obs. 1"/>
+          <properties>
+            <property>
+              <label uuid="7ed72a30-14a2-df6f-a2c9-76295cdb4bdb">Object type</label>
+              <value uuid="20a05d15-12e1-44cd-542f-c1f6188fa026">Tablet</value>
+            </property>
+            <property>
+              <label uuid="1593a756-6733-4de8-a056-e4b546be202e">Museum Number</label>
+              <value>DO 3899</value>
+            </property>
+            <property>
+              <label uuid="8ab9caea-aa80-4bae-a359-d1b03eddddf4">Full TEO Findspot</label>
+              <value>Palais Royal, pièce 53 (Archives Est), p.t. 72, 73, à 0,70</value>
+            </property>
+            <property>
+              <label uuid="1db231a7-a055-d5c6-08a8-b06022c8daec">Associated text</label>
+              <value uuid="cee88ae0-af96-4bcf-b603-4bfef5f80306">RS 15.006</value>
+            </property>
+            <property>
+              <label uuid="108422f2-ffc8-4ed4-9863-815ef0cee189">Script</label>
+              <value uuid="d9deb910-2c10-4249-ae27-f0d85c5ca3e4">Alphabetic</value>
+            </property>
+            <property>
+              <label uuid="f72f1b40-2602-57fe-9b34-351d7d4df00e">Language</label>
+              <value uuid="fd10e240-1794-821a-0e92-0d5c66b9b996">Ugaritic</value>
+            </property>
+            <property>
+              <label uuid="b572a357-3007-41e7-9ec1-1f3e4cda5edf">Length</label>
+              <value>57 mm</value>
+            </property>
+            <property>
+              <label uuid="a5983c8f-06c1-4d20-9e05-fdde87ad607f">Width</label>
+              <value>46 mm</value>
+            </property>
+            <property>
+              <label uuid="5160324a-d1cb-4c3a-aa29-9bdd19c00927">Thickness</label>
+              <value>22 mm</value>
+            </property>
+            <property>
+              <label uuid="3aa299da-bf90-477f-bad0-15b83cf8a61b">Size</label>
+              <value>57 x 46 x 22</value>
+            </property>
+          </properties>
+        </spatialUnit>
+        <spatialUnit n="0" uuid="26ed0c14-baef-4917-ac9b-d990e63cb697">
+          <identification>
+            <label>RS 15.007</label>
+          </identification>
+          <description>Tablet, Alphabetic Ugaritic</description>
+          <associated_desc>Letter requesting permission to seize a man.</associated_desc>
+          <observation observationNo="Obs. 1"/>
+          <properties>
+            <property>
+              <label uuid="7ed72a30-14a2-df6f-a2c9-76295cdb4bdb">Object type</label>
+              <value uuid="20a05d15-12e1-44cd-542f-c1f6188fa026">Tablet</value>
+            </property>
+            <property>
+              <label uuid="1593a756-6733-4de8-a056-e4b546be202e">Museum Number</label>
+              <value>DO 3900</value>
+            </property>
+            <property>
+              <label uuid="8ab9caea-aa80-4bae-a359-d1b03eddddf4">Full TEO Findspot</label>
+              <value>Palais Royal, pièce 53 (Archives Est), p.t. 72, 73, à 0,70</value>
+            </property>
+            <property>
+              <label uuid="1db231a7-a055-d5c6-08a8-b06022c8daec">Associated text</label>
+              <value uuid="17f8f1a6-4e4c-48b5-be3d-6a3c8bf8c4bb">RS 15.007</value>
+            </property>
+            <property>
+              <label uuid="108422f2-ffc8-4ed4-9863-815ef0cee189">Script</label>
+              <value uuid="d9deb910-2c10-4249-ae27-f0d85c5ca3e4">Alphabetic</value>
+            </property>
+            <property>
+              <label uuid="f72f1b40-2602-57fe-9b34-351d7d4df00e">Language</label>
+              <value uuid="fd10e240-1794-821a-0e92-0d5c66b9b996">Ugaritic</value>
+            </property>
+            <property>
+              <label uuid="b572a357-3007-41e7-9ec1-1f3e4cda5edf">Length</label>
+              <value>62 mm</value>
+            </property>
+            <property>
+              <label uuid="a5983c8f-06c1-4d20-9e05-fdde87ad607f">Width</label>
+              <value>55 mm</value>
+            </property>
+            <property>
+              <label uuid="5160324a-d1cb-4c3a-aa29-9bdd19c00927">Thickness</label>
+              <value>21 mm</value>
+            </property>
+            <property>
+              <label uuid="3aa299da-bf90-477f-bad0-15b83cf8a61b">Size</label>
+              <value>62 x 55 x 21</value>
+            </property>
+          </properties>
+        </spatialUnit>
+        <spatialUnit n="0" uuid="1eada04a-d2d1-4f99-aca4-f805b3073452">
+          <identification>
+            <label>RS 15.008</label>
+          </identification>
+          <description>Tablet, Alphabetic Ugaritic</description>
+          <associated_desc>Letter to the queen regarding military preparations</associated_desc>
+          <observation observationNo="Obs. 1"/>
+          <properties>
+            <property>
+              <label uuid="7ed72a30-14a2-df6f-a2c9-76295cdb4bdb">Object type</label>
+              <value uuid="20a05d15-12e1-44cd-542f-c1f6188fa026">Tablet</value>
+            </property>
+            <property>
+              <label uuid="1593a756-6733-4de8-a056-e4b546be202e">Museum Number</label>
+              <value>DO 3901</value>
+            </property>
+            <property>
+              <label uuid="8ab9caea-aa80-4bae-a359-d1b03eddddf4">Full TEO Findspot</label>
+              <value>Palais Royal, pièce 53 (Archives Est), p.t. 72, 73, à 0,70</value>
+            </property>
+            <property>
+              <label uuid="1db231a7-a055-d5c6-08a8-b06022c8daec">Associated text</label>
+              <value uuid="28bf5dfc-2a11-4aa0-8a39-f5e6156d6443">RS 15.008</value>
+            </property>
+            <property>
+              <label uuid="108422f2-ffc8-4ed4-9863-815ef0cee189">Script</label>
+              <value uuid="d9deb910-2c10-4249-ae27-f0d85c5ca3e4">Alphabetic</value>
+            </property>
+            <property>
+              <label uuid="f72f1b40-2602-57fe-9b34-351d7d4df00e">Language</label>
+              <value uuid="fd10e240-1794-821a-0e92-0d5c66b9b996">Ugaritic</value>
+            </property>
+            <property>
+              <label uuid="b572a357-3007-41e7-9ec1-1f3e4cda5edf">Length</label>
+              <value>53 mm</value>
+            </property>
+            <property>
+              <label uuid="a5983c8f-06c1-4d20-9e05-fdde87ad607f">Width</label>
+              <value>84 mm</value>
+            </property>
+            <property>
+              <label uuid="5160324a-d1cb-4c3a-aa29-9bdd19c00927">Thickness</label>
+              <value>21 mm</value>
+            </property>
+            <property>
+              <label uuid="3aa299da-bf90-477f-bad0-15b83cf8a61b">Size</label>
+              <value>53 x 84 x 21</value>
+            </property>
+          </properties>
+        </spatialUnit>
+        <spatialUnit n="0" uuid="af56423f-8863-4b64-9a02-151fa0449444">
+          <identification>
+            <label>RS 15.009</label>
+          </identification>
+          <description>Tablet, Logosyllabic Akkadian</description>
+          <associated_desc>RS 15.009</associated_desc>
+          <observation observationNo="Obs. 1"/>
+          <properties>
+            <property>
+              <label uuid="7ed72a30-14a2-df6f-a2c9-76295cdb4bdb">Object type</label>
+              <value uuid="20a05d15-12e1-44cd-542f-c1f6188fa026">Tablet</value>
+            </property>
+            <property>
+              <label uuid="1593a756-6733-4de8-a056-e4b546be202e">Museum Number</label>
+              <value>DO 3902</value>
+            </property>
+            <property>
+              <label uuid="8ab9caea-aa80-4bae-a359-d1b03eddddf4">Full TEO Findspot</label>
+              <value>Palais Royal, pièce 53 (Archives Est), p.t. 72, 73, à 0,70</value>
+            </property>
+            <property>
+              <label uuid="1db231a7-a055-d5c6-08a8-b06022c8daec">Associated text</label>
+              <value uuid="14799864-6219-4c33-a251-94d838947756">RS 15.009</value>
+            </property>
+            <property>
+              <label uuid="108422f2-ffc8-4ed4-9863-815ef0cee189">Script</label>
+              <value uuid="295e4cb6-5ca2-4bdb-a3fb-c0dd6fcb93c1">Logosyllabic</value>
+            </property>
+            <property>
+              <label uuid="f72f1b40-2602-57fe-9b34-351d7d4df00e">Language</label>
+              <value uuid="93e800a3-2973-967e-11b5-80b9ee81b292">Akkadian</value>
+            </property>
+            <property>
+              <label uuid="b572a357-3007-41e7-9ec1-1f3e4cda5edf">Length</label>
+              <value>100 mm</value>
+            </property>
+            <property>
+              <label uuid="a5983c8f-06c1-4d20-9e05-fdde87ad607f">Width</label>
+              <value>69 mm</value>
+            </property>
+            <property>
+              <label uuid="5160324a-d1cb-4c3a-aa29-9bdd19c00927">Thickness</label>
+              <value>25 mm</value>
+            </property>
+            <property>
+              <label uuid="3aa299da-bf90-477f-bad0-15b83cf8a61b">Size</label>
+              <value>100 x 69 x 25</value>
+            </property>
+          </properties>
+        </spatialUnit>
+        <spatialUnit n="0" uuid="7d8aa00a-ea5e-4e72-8dc6-30e65c776f2a">
+          <identification>
+            <label>RS 15.010</label>
+          </identification>
+          <description>Tablet, Logosyllabic Akkadian; Hurrian</description>
+          <associated_desc>Proverbes</associated_desc>
+          <observation observationNo="Obs. 1"/>
+          <properties>
+            <property>
+              <label uuid="7ed72a30-14a2-df6f-a2c9-76295cdb4bdb">Object type</label>
+              <value uuid="20a05d15-12e1-44cd-542f-c1f6188fa026">Tablet</value>
+            </property>
+            <property>
+              <label uuid="1593a756-6733-4de8-a056-e4b546be202e">Museum Number</label>
+              <value>Tartous 511</value>
+            </property>
+            <property>
+              <label uuid="8ab9caea-aa80-4bae-a359-d1b03eddddf4">Full TEO Findspot</label>
+              <value>Palais Royal, pièce 53 (Archives Est), p.t. 72, 73, à 0,70</value>
+            </property>
+            <property>
+              <label uuid="1db231a7-a055-d5c6-08a8-b06022c8daec">Associated text</label>
+              <value uuid="ccc310fd-8053-4c71-90bb-ed79f11d4e46">RS 15.010</value>
+            </property>
+            <property>
+              <label uuid="108422f2-ffc8-4ed4-9863-815ef0cee189">Script</label>
+              <value uuid="295e4cb6-5ca2-4bdb-a3fb-c0dd6fcb93c1">Logosyllabic</value>
+              <value uuid="d9deb910-2c10-4249-ae27-f0d85c5ca3e4">Alphabetic</value>
+            </property>
+            <property>
+              <label uuid="f72f1b40-2602-57fe-9b34-351d7d4df00e">Language</label>
+              <value uuid="93e800a3-2973-967e-11b5-80b9ee81b292">Akkadian</value>
+              <value uuid="2f0bddbd-1792-1263-7f7d-e8955b443a46">Hurrian</value>
+            </property>
+            <property>
+              <label uuid="b572a357-3007-41e7-9ec1-1f3e4cda5edf">Length</label>
+              <value>100 mm</value>
+            </property>
+            <property>
+              <label uuid="a5983c8f-06c1-4d20-9e05-fdde87ad607f">Width</label>
+              <value>57 mm</value>
+            </property>
+            <property>
+              <label uuid="5160324a-d1cb-4c3a-aa29-9bdd19c00927">Thickness</label>
+              <value>26 mm</value>
+            </property>
+            <property>
+              <label uuid="3aa299da-bf90-477f-bad0-15b83cf8a61b">Size</label>
+              <value>100 x 57 x 26</value>
+            </property>
+          </properties>
+        </spatialUnit>
+        <spatialUnit n="0" uuid="1bb00721-37ce-4897-ad2b-a63bca00e5f3">
+          <identification>
+            <label>RS 15.011</label>
+          </identification>
+          <description>Tablet, Logosyllabic Akkadian</description>
+          <associated_desc>Letter from Muarihi to the Maškim</associated_desc>
+          <observation observationNo="Obs. 1"/>
+          <properties>
+            <property>
+              <label uuid="7ed72a30-14a2-df6f-a2c9-76295cdb4bdb">Object type</label>
+              <value uuid="20a05d15-12e1-44cd-542f-c1f6188fa026">Tablet</value>
+            </property>
+            <property>
+              <label uuid="1593a756-6733-4de8-a056-e4b546be202e">Museum Number</label>
+              <value>DO 3903</value>
+            </property>
+            <property>
+              <label uuid="8ab9caea-aa80-4bae-a359-d1b03eddddf4">Full TEO Findspot</label>
+              <value>Palais Royal, pièce 53 (Archives Est), p.t. 72, 73, à 0,70</value>
+            </property>
+            <property>
+              <label uuid="1db231a7-a055-d5c6-08a8-b06022c8daec">Associated text</label>
+              <value uuid="2d380b55-a2a3-41bc-821b-484a9901c30a">RS 15.011</value>
+            </property>
+            <property>
+              <label uuid="108422f2-ffc8-4ed4-9863-815ef0cee189">Script</label>
+              <value uuid="295e4cb6-5ca2-4bdb-a3fb-c0dd6fcb93c1">Logosyllabic</value>
+            </property>
+            <property>
+              <label uuid="f72f1b40-2602-57fe-9b34-351d7d4df00e">Language</label>
+              <value uuid="93e800a3-2973-967e-11b5-80b9ee81b292">Akkadian</value>
+            </property>
+            <property>
+              <label uuid="b572a357-3007-41e7-9ec1-1f3e4cda5edf">Length</label>
+              <value>83 mm</value>
+            </property>
+            <property>
+              <label uuid="a5983c8f-06c1-4d20-9e05-fdde87ad607f">Width</label>
+              <value>68 mm</value>
+            </property>
+            <property>
+              <label uuid="5160324a-d1cb-4c3a-aa29-9bdd19c00927">Thickness</label>
+              <value>26 mm</value>
+            </property>
+            <property>
+              <label uuid="3aa299da-bf90-477f-bad0-15b83cf8a61b">Size</label>
+              <value>83 x 68 x 26</value>
+            </property>
+          </properties>
+        </spatialUnit>
+        <spatialUnit n="0" uuid="af17007e-b3a7-401b-be8e-14628e86f6e8">
+          <identification>
+            <label>RS 15.012</label>
+          </identification>
+          <description>Tablet, Alphabetic Ugaritic</description>
+          <associated_desc>20 shekels of silver owed by one person</associated_desc>
+          <observation observationNo="Obs. 1"/>
+          <properties>
+            <property>
+              <label uuid="7ed72a30-14a2-df6f-a2c9-76295cdb4bdb">Object type</label>
+              <value uuid="20a05d15-12e1-44cd-542f-c1f6188fa026">Tablet</value>
+            </property>
+            <property>
+              <label uuid="1593a756-6733-4de8-a056-e4b546be202e">Museum Number</label>
+              <value>DO 3904</value>
+            </property>
+            <property>
+              <label uuid="8ab9caea-aa80-4bae-a359-d1b03eddddf4">Full TEO Findspot</label>
+              <value>Palais Royal, pièce 53 (Archives Est), p.t. 72, 73, à 0,70</value>
+            </property>
+            <property>
+              <label uuid="1db231a7-a055-d5c6-08a8-b06022c8daec">Associated text</label>
+              <value uuid="74f21fbe-7e74-4f22-8933-1eaf03593de3">RS 15.012</value>
+            </property>
+            <property>
+              <label uuid="108422f2-ffc8-4ed4-9863-815ef0cee189">Script</label>
+              <value uuid="d9deb910-2c10-4249-ae27-f0d85c5ca3e4">Alphabetic</value>
+            </property>
+            <property>
+              <label uuid="f72f1b40-2602-57fe-9b34-351d7d4df00e">Language</label>
+              <value uuid="fd10e240-1794-821a-0e92-0d5c66b9b996">Ugaritic</value>
+            </property>
+            <property>
+              <label uuid="b572a357-3007-41e7-9ec1-1f3e4cda5edf">Length</label>
+              <value>85 mm</value>
+            </property>
+            <property>
+              <label uuid="a5983c8f-06c1-4d20-9e05-fdde87ad607f">Width</label>
+              <value>53 mm</value>
+            </property>
+            <property>
+              <label uuid="5160324a-d1cb-4c3a-aa29-9bdd19c00927">Thickness</label>
+              <value>22 mm</value>
+            </property>
+            <property>
+              <label uuid="3aa299da-bf90-477f-bad0-15b83cf8a61b">Size</label>
+              <value>85 x 53 x 22</value>
+            </property>
+          </properties>
+        </spatialUnit>
+        <spatialUnit n="0" uuid="d063c218-2331-4d65-9498-525d37c6cbd9">
+          <identification>
+            <label>RS 15.013</label>
+          </identification>
+          <description>Tablet, Alphabetic Ugaritic</description>
+          <associated_desc>RS 15.013</associated_desc>
+          <observation observationNo="Obs. 1"/>
+          <properties>
+            <property>
+              <label uuid="7ed72a30-14a2-df6f-a2c9-76295cdb4bdb">Object type</label>
+              <value uuid="20a05d15-12e1-44cd-542f-c1f6188fa026">Tablet</value>
+            </property>
+            <property>
+              <label uuid="1593a756-6733-4de8-a056-e4b546be202e">Museum Number</label>
+              <value>DO 3905</value>
+            </property>
+            <property>
+              <label uuid="8ab9caea-aa80-4bae-a359-d1b03eddddf4">Full TEO Findspot</label>
+              <value>Palais Royal, pièce 53 (Archives Est), p.t. 72, 73, à 0,70</value>
+            </property>
+            <property>
+              <label uuid="1db231a7-a055-d5c6-08a8-b06022c8daec">Associated text</label>
+              <value uuid="9dfdef34-9662-405d-827c-a023fd0757df">RS 15.013</value>
+            </property>
+            <property>
+              <label uuid="108422f2-ffc8-4ed4-9863-815ef0cee189">Script</label>
+              <value uuid="d9deb910-2c10-4249-ae27-f0d85c5ca3e4">Alphabetic</value>
+            </property>
+            <property>
+              <label uuid="f72f1b40-2602-57fe-9b34-351d7d4df00e">Language</label>
+              <value uuid="fd10e240-1794-821a-0e92-0d5c66b9b996">Ugaritic</value>
+            </property>
+            <property>
+              <label uuid="b572a357-3007-41e7-9ec1-1f3e4cda5edf">Length</label>
+              <value>78 mm</value>
+            </property>
+            <property>
+              <label uuid="a5983c8f-06c1-4d20-9e05-fdde87ad607f">Width</label>
+              <value>54 mm</value>
+            </property>
+            <property>
+              <label uuid="5160324a-d1cb-4c3a-aa29-9bdd19c00927">Thickness</label>
+              <value>24 mm</value>
+            </property>
+            <property>
+              <label uuid="3aa299da-bf90-477f-bad0-15b83cf8a61b">Size</label>
+              <value>78 x 54 x 24</value>
+            </property>
+          </properties>
+        </spatialUnit>
+        <spatialUnit n="0" uuid="54032ea7-fd49-4eae-b9e5-034b3ff551cc">
+          <identification>
+            <label>RS 15.014</label>
+          </identification>
+          <description>Tablet, Logosyllabic Akkadian</description>
+          <associated_desc>RS 15.014</associated_desc>
+          <observation observationNo="Obs. 1"/>
+          <properties>
+            <property>
+              <label uuid="7ed72a30-14a2-df6f-a2c9-76295cdb4bdb">Object type</label>
+              <value uuid="20a05d15-12e1-44cd-542f-c1f6188fa026">Tablet</value>
+            </property>
+            <property>
+              <label uuid="1593a756-6733-4de8-a056-e4b546be202e">Museum Number</label>
+              <value>DO 3563</value>
+            </property>
+            <property>
+              <label uuid="8ab9caea-aa80-4bae-a359-d1b03eddddf4">Full TEO Findspot</label>
+              <value>Palais Royal, pièce 53 (Archives Est), p.t. 72, 73, à 0,70</value>
+            </property>
+            <property>
+              <label uuid="1db231a7-a055-d5c6-08a8-b06022c8daec">Associated text</label>
+              <value uuid="71f38c6d-b7ff-40e0-8198-49f6a3c294c9">RS 15.014</value>
+            </property>
+            <property>
+              <label uuid="108422f2-ffc8-4ed4-9863-815ef0cee189">Script</label>
+              <value uuid="295e4cb6-5ca2-4bdb-a3fb-c0dd6fcb93c1">Logosyllabic</value>
+            </property>
+            <property>
+              <label uuid="f72f1b40-2602-57fe-9b34-351d7d4df00e">Language</label>
+              <value uuid="93e800a3-2973-967e-11b5-80b9ee81b292">Akkadian</value>
+            </property>
+            <property>
+              <label uuid="b572a357-3007-41e7-9ec1-1f3e4cda5edf">Length</label>
+              <value>68 mm</value>
+            </property>
+            <property>
+              <label uuid="a5983c8f-06c1-4d20-9e05-fdde87ad607f">Width</label>
+              <value>47 mm</value>
+            </property>
+            <property>
+              <label uuid="5160324a-d1cb-4c3a-aa29-9bdd19c00927">Thickness</label>
+              <value>17 mm</value>
+            </property>
+            <property>
+              <label uuid="3aa299da-bf90-477f-bad0-15b83cf8a61b">Size</label>
+              <value>68 x 47 x 17</value>
+            </property>
+          </properties>
+        </spatialUnit>
+        <spatialUnit n="0" uuid="5b485455-7dbe-417a-978a-73315f6abfea">
+          <identification>
+            <label>RS 15.015+</label>
+          </identification>
+          <description>Tablet, Alphabetic Ugaritic</description>
+          <associated_desc>353 men working at the royal palace.</associated_desc>
+          <observation observationNo="Obs. 1"/>
+          <properties>
+            <property>
+              <label uuid="7ed72a30-14a2-df6f-a2c9-76295cdb4bdb">Object type</label>
+              <value uuid="20a05d15-12e1-44cd-542f-c1f6188fa026">Tablet</value>
+            </property>
+            <property>
+              <label uuid="1593a756-6733-4de8-a056-e4b546be202e">Museum Number</label>
+              <value>DO 3906</value>
+            </property>
+            <property>
+              <label uuid="8ab9caea-aa80-4bae-a359-d1b03eddddf4">Full TEO Findspot</label>
+              <value>Palais Royal, pièce 53 (Archives Est), p.t. 72, 73, à 0,70</value>
+            </property>
+            <property>
+              <label uuid="1db231a7-a055-d5c6-08a8-b06022c8daec">Associated text</label>
+              <value uuid="41e204c5-b030-4ab7-8f01-c01e7796d001">RS 15.015+</value>
+            </property>
+            <property>
+              <label uuid="108422f2-ffc8-4ed4-9863-815ef0cee189">Script</label>
+              <value uuid="d9deb910-2c10-4249-ae27-f0d85c5ca3e4">Alphabetic</value>
+            </property>
+            <property>
+              <label uuid="f72f1b40-2602-57fe-9b34-351d7d4df00e">Language</label>
+              <value uuid="fd10e240-1794-821a-0e92-0d5c66b9b996">Ugaritic</value>
+            </property>
+            <property>
+              <label uuid="b572a357-3007-41e7-9ec1-1f3e4cda5edf">Length</label>
+              <value>69 mm</value>
+            </property>
+            <property>
+              <label uuid="a5983c8f-06c1-4d20-9e05-fdde87ad607f">Width</label>
+              <value>81 mm</value>
+            </property>
+            <property>
+              <label uuid="5160324a-d1cb-4c3a-aa29-9bdd19c00927">Thickness</label>
+              <value>27 mm</value>
+            </property>
+            <property>
+              <label uuid="3aa299da-bf90-477f-bad0-15b83cf8a61b">Size</label>
+              <value>69 x 81 x 27</value>
+            </property>
+          </properties>
+        </spatialUnit>
+        <spatialUnit n="0" uuid="2e369f42-0d23-4ffc-816b-64c56baa2a75">
+          <identification>
+            <label>RS 15.016</label>
+          </identification>
+          <description>Tablet, Alphabetic Ugaritic</description>
+          <associated_desc>Men and apprentices under the authority of individuals</associated_desc>
+          <observation observationNo="Obs. 1"/>
+          <properties>
+            <property>
+              <label uuid="7ed72a30-14a2-df6f-a2c9-76295cdb4bdb">Object type</label>
+              <value uuid="20a05d15-12e1-44cd-542f-c1f6188fa026">Tablet</value>
+            </property>
+            <property>
+              <label uuid="1593a756-6733-4de8-a056-e4b546be202e">Museum Number</label>
+              <value>DO 3907</value>
+            </property>
+            <property>
+              <label uuid="8ab9caea-aa80-4bae-a359-d1b03eddddf4">Full TEO Findspot</label>
+              <value>Palais Royal, pièce 53 (Archives Est), p.t. 72, 73, à 0,70</value>
+            </property>
+            <property>
+              <label uuid="1db231a7-a055-d5c6-08a8-b06022c8daec">Associated text</label>
+              <value uuid="110104b7-7ba6-4ec4-acfd-307867c27ee6">RS 15.016</value>
+            </property>
+            <property>
+              <label uuid="108422f2-ffc8-4ed4-9863-815ef0cee189">Script</label>
+              <value uuid="d9deb910-2c10-4249-ae27-f0d85c5ca3e4">Alphabetic</value>
+            </property>
+            <property>
+              <label uuid="f72f1b40-2602-57fe-9b34-351d7d4df00e">Language</label>
+              <value uuid="fd10e240-1794-821a-0e92-0d5c66b9b996">Ugaritic</value>
+            </property>
+            <property>
+              <label uuid="b572a357-3007-41e7-9ec1-1f3e4cda5edf">Length</label>
+              <value>54 mm</value>
+            </property>
+            <property>
+              <label uuid="a5983c8f-06c1-4d20-9e05-fdde87ad607f">Width</label>
+              <value>73 mm</value>
+            </property>
+            <property>
+              <label uuid="5160324a-d1cb-4c3a-aa29-9bdd19c00927">Thickness</label>
+              <value>23 mm</value>
+            </property>
+            <property>
+              <label uuid="3aa299da-bf90-477f-bad0-15b83cf8a61b">Size</label>
+              <value>54 x 73 x 23</value>
+            </property>
+          </properties>
+        </spatialUnit>
+        <spatialUnit n="0" uuid="1a74a8c5-588e-4524-a017-d823a84b3f35">
+          <identification>
+            <label>RS 15.017</label>
+          </identification>
+          <description>Tablet, Alphabetic Ugaritic</description>
+          <associated_desc>RS 15.017</associated_desc>
+          <observation observationNo="Obs. 1"/>
+          <properties>
+            <property>
+              <label uuid="7ed72a30-14a2-df6f-a2c9-76295cdb4bdb">Object type</label>
+              <value uuid="20a05d15-12e1-44cd-542f-c1f6188fa026">Tablet</value>
+            </property>
+            <property>
+              <label uuid="1593a756-6733-4de8-a056-e4b546be202e">Museum Number</label>
+              <value>Damas s.n.</value>
+            </property>
+            <property>
+              <label uuid="8ab9caea-aa80-4bae-a359-d1b03eddddf4">Full TEO Findspot</label>
+              <value>Palais Royal, pièce 53 (Archives Est), p.t. 72, 73, à 0,70</value>
+            </property>
+            <property>
+              <label uuid="1db231a7-a055-d5c6-08a8-b06022c8daec">Associated text</label>
+              <value uuid="d4e83565-a348-4d8d-89ae-3902001293c6">RS 15.017</value>
+            </property>
+            <property>
+              <label uuid="108422f2-ffc8-4ed4-9863-815ef0cee189">Script</label>
+              <value uuid="d9deb910-2c10-4249-ae27-f0d85c5ca3e4">Alphabetic</value>
+            </property>
+            <property>
+              <label uuid="f72f1b40-2602-57fe-9b34-351d7d4df00e">Language</label>
+              <value uuid="fd10e240-1794-821a-0e92-0d5c66b9b996">Ugaritic</value>
+            </property>
+            <property>
+              <label uuid="b572a357-3007-41e7-9ec1-1f3e4cda5edf">Length</label>
+              <value>54 mm</value>
+            </property>
+            <property>
+              <label uuid="a5983c8f-06c1-4d20-9e05-fdde87ad607f">Width</label>
+              <value>74 mm</value>
+            </property>
+            <property>
+              <label uuid="5160324a-d1cb-4c3a-aa29-9bdd19c00927">Thickness</label>
+              <value>18 mm</value>
+            </property>
+            <property>
+              <label uuid="3aa299da-bf90-477f-bad0-15b83cf8a61b">Size</label>
+              <value>54 x 74 x 18</value>
+            </property>
+          </properties>
+        </spatialUnit>
+        <spatialUnit n="0" uuid="c00cf67a-969e-48fb-bb66-63edebf20181">
+          <identification>
+            <label>RS 15.018</label>
+          </identification>
+          <description>Tablet, Logosyllabic Akkadian</description>
+          <associated_desc>RS 15.018</associated_desc>
+          <observation observationNo="Obs. 1"/>
+          <properties>
+            <property>
+              <label uuid="7ed72a30-14a2-df6f-a2c9-76295cdb4bdb">Object type</label>
+              <value uuid="20a05d15-12e1-44cd-542f-c1f6188fa026">Tablet</value>
+            </property>
+            <property>
+              <label uuid="1593a756-6733-4de8-a056-e4b546be202e">Museum Number</label>
+              <value>DO 3908</value>
+            </property>
+            <property>
+              <label uuid="8ab9caea-aa80-4bae-a359-d1b03eddddf4">Full TEO Findspot</label>
+              <value>Palais Royal, pièce 53 (Archives Est), p.t. 72, 73, à 0,70</value>
+            </property>
+            <property>
+              <label uuid="1db231a7-a055-d5c6-08a8-b06022c8daec">Associated text</label>
+              <value uuid="ac705872-c079-48db-9597-7e4f7bb93881">RS 15.018</value>
+            </property>
+            <property>
+              <label uuid="108422f2-ffc8-4ed4-9863-815ef0cee189">Script</label>
+              <value uuid="295e4cb6-5ca2-4bdb-a3fb-c0dd6fcb93c1">Logosyllabic</value>
+            </property>
+            <property>
+              <label uuid="f72f1b40-2602-57fe-9b34-351d7d4df00e">Language</label>
+              <value uuid="93e800a3-2973-967e-11b5-80b9ee81b292">Akkadian</value>
+            </property>
+            <property>
+              <label uuid="b572a357-3007-41e7-9ec1-1f3e4cda5edf">Length</label>
+              <value>61 mm</value>
+            </property>
+            <property>
+              <label uuid="a5983c8f-06c1-4d20-9e05-fdde87ad607f">Width</label>
+              <value>56 mm</value>
+            </property>
+            <property>
+              <label uuid="5160324a-d1cb-4c3a-aa29-9bdd19c00927">Thickness</label>
+              <value>24 mm</value>
+            </property>
+            <property>
+              <label uuid="3aa299da-bf90-477f-bad0-15b83cf8a61b">Size</label>
+              <value>61 x 56 x 24</value>
+            </property>
+          </properties>
+        </spatialUnit>
+        <spatialUnit n="0" uuid="cdfd6140-51a7-4b55-b341-9dab8c91b295">
+          <identification>
+            <label>RS 15.019</label>
+          </identification>
+          <description>Tablet, Logosyllabic Akkadian</description>
+          <associated_desc>RS 15.019</associated_desc>
+          <observation observationNo="Obs. 1"/>
+          <properties>
+            <property>
+              <label uuid="7ed72a30-14a2-df6f-a2c9-76295cdb4bdb">Object type</label>
+              <value uuid="20a05d15-12e1-44cd-542f-c1f6188fa026">Tablet</value>
+            </property>
+            <property>
+              <label uuid="1593a756-6733-4de8-a056-e4b546be202e">Museum Number</label>
+              <value>DO 3909</value>
+            </property>
+            <property>
+              <label uuid="8ab9caea-aa80-4bae-a359-d1b03eddddf4">Full TEO Findspot</label>
+              <value>Palais Royal, pièce 53 (Archives Est), p.t. 72, 73, à 0,70</value>
+            </property>
+            <property>
+              <label uuid="1db231a7-a055-d5c6-08a8-b06022c8daec">Associated text</label>
+              <value uuid="b1dfd360-5782-43bc-8b58-9fde12059fe4">RS 15.019</value>
+            </property>
+            <property>
+              <label uuid="108422f2-ffc8-4ed4-9863-815ef0cee189">Script</label>
+              <value uuid="295e4cb6-5ca2-4bdb-a3fb-c0dd6fcb93c1">Logosyllabic</value>
+            </property>
+            <property>
+              <label uuid="f72f1b40-2602-57fe-9b34-351d7d4df00e">Language</label>
+              <value uuid="93e800a3-2973-967e-11b5-80b9ee81b292">Akkadian</value>
+            </property>
+            <property>
+              <label uuid="b572a357-3007-41e7-9ec1-1f3e4cda5edf">Length</label>
+              <value>20 mm</value>
+            </property>
+            <property>
+              <label uuid="a5983c8f-06c1-4d20-9e05-fdde87ad607f">Width</label>
+              <value>46 mm</value>
+            </property>
+            <property>
+              <label uuid="5160324a-d1cb-4c3a-aa29-9bdd19c00927">Thickness</label>
+              <value>21 mm</value>
+            </property>
+            <property>
+              <label uuid="3aa299da-bf90-477f-bad0-15b83cf8a61b">Size</label>
+              <value>20 x 46 x 21</value>
+            </property>
+          </properties>
+        </spatialUnit>
+        <spatialUnit n="0" uuid="74458a49-72d2-43a1-b1fb-8e91b11cc25a">
+          <identification>
+            <label>RS 15.020</label>
+          </identification>
+          <description>Tablet, Logosyllabic Akkadian</description>
+          <associated_desc>RS 15.020</associated_desc>
+          <observation observationNo="Obs. 1"/>
+          <properties>
+            <property>
+              <label uuid="7ed72a30-14a2-df6f-a2c9-76295cdb4bdb">Object type</label>
+              <value uuid="20a05d15-12e1-44cd-542f-c1f6188fa026">Tablet</value>
+            </property>
+            <property>
+              <label uuid="1593a756-6733-4de8-a056-e4b546be202e">Museum Number</label>
+              <value>DO 3910</value>
+            </property>
+            <property>
+              <label uuid="8ab9caea-aa80-4bae-a359-d1b03eddddf4">Full TEO Findspot</label>
+              <value>Palais Royal, pièce 53 (Archives Est), p.t. 72, 73, à 0,70</value>
+            </property>
+            <property>
+              <label uuid="1db231a7-a055-d5c6-08a8-b06022c8daec">Associated text</label>
+              <value uuid="e8d424b8-0cf0-46bb-a889-aed03f8465ed">RS 15.020</value>
+            </property>
+            <property>
+              <label uuid="108422f2-ffc8-4ed4-9863-815ef0cee189">Script</label>
+              <value uuid="295e4cb6-5ca2-4bdb-a3fb-c0dd6fcb93c1">Logosyllabic</value>
+            </property>
+            <property>
+              <label uuid="f72f1b40-2602-57fe-9b34-351d7d4df00e">Language</label>
+              <value uuid="93e800a3-2973-967e-11b5-80b9ee81b292">Akkadian</value>
+            </property>
+            <property>
+              <label uuid="b572a357-3007-41e7-9ec1-1f3e4cda5edf">Length</label>
+              <value>86 mm</value>
+            </property>
+            <property>
+              <label uuid="a5983c8f-06c1-4d20-9e05-fdde87ad607f">Width</label>
+              <value>82 mm</value>
+            </property>
+            <property>
+              <label uuid="5160324a-d1cb-4c3a-aa29-9bdd19c00927">Thickness</label>
+              <value>29 mm</value>
+            </property>
+            <property>
+              <label uuid="3aa299da-bf90-477f-bad0-15b83cf8a61b">Size</label>
+              <value>86 x 82 x 29</value>
+            </property>
+          </properties>
+        </spatialUnit>
+      </items>
+  </ochre>
+</result>

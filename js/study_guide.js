@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     loadXML();
 
     function loadXML() {
-      requestXML(link, {redirect: 'follow'});
+      requestXML(link, {redirect: 'follow'}); //
       console.log('loadXML -- OK');
     }
 
@@ -21,20 +21,34 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     function parseXML(sourceXML) {
-      let objectData = sourceXML.querySelectorAll("spatialUnit"); //tag should be found in the XML
+      let objectData = sourceXML.querySelectorAll("spatialUnit");
 
       objectData.forEach((element, index) => {
+        //List
+        let listValue = document.createElement("li");
+        document.getElementById("myList").appendChild(listValue);
+        listValue.innerHTML = element.children[0].children[0].innerHTML;
+        
+        //Table
         let newRow = document.createElement("tr");
         newRow.id = "row"+index;
         document.getElementById("myTableBody").appendChild(newRow); //linking it to the html
+
+        //Columns in Table
+        //col 1
         let newCol1 = document.createElement("td");
-        newCol1.innerHTML = element.children[0].children[0].innerHTML
+        newCol1.innerHTML = element.children[1].innerHTML
         document.getElementById("row"+index).appendChild(newCol1) //uses the row defined on line 28
 
-        //repeat for next col
+        //repeat for col 2
         let newCol2 = document.createElement("td");
         newCol2.innerHTML = element.children[4].children[6].children[1].innerHTML
         document.getElementById("row"+index).appendChild(newCol2) //uses the row defined on line 28
+
+        //repeat for col 3
+        let newCol3 = document.createElement("td");
+        newCol3.innerHTML = element.children[4].children[1].children[1].innerHTML;
+        document.getElementById("row"+index).appendChild(newCol3)
       });
     };
 });
