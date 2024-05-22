@@ -127,4 +127,10 @@ a.link:focus {
 
 .hover-opacity:hover {
   opacity: 0.7;
+}
+
+.book-image {
+  height: 600px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=uchicago_format.css.map */

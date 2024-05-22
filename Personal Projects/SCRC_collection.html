@@ -19,11 +19,30 @@
 
     <div class="container-fluid container-content">
 
-      <h1>Une Analyse Poussée de Deux Textes du SCRC</h1>
-      <p>Ce projet analyse des images et des textes à l'appui de deux textes médicaux du SCRC de l'Université de Chicago.</p>
-      
+      <h1>Une analyse poussée du genre dans un livre de dissection du XVIe siècle de la collection SCRC de l'Université de Chicago</h1>
+
       <a href="https://catalog.lib.uchicago.edu/vufind/Record/2427262?sid=62460221" class="bold-maroon-link">La dissection des parties du corps humain divisee en trois livres</a> 
+      
+      <hr>
+
+      <h3>Petite description du projet et du texte</h3>
+      <p>
+        <i>La dissection des parties du corps humain divisee en trois livres</i> est un texte d'images de dissections. 
+        Les dissections montrent différentes parties du corps humain, complétées par des explications textuelles.
+        Parmi ces images, il y a des représentations d’anatomies masculines et féminines, mais ces représentations sont très différentes.
+        L’objectif de ce projet est donc d’analyser ces différences et leur lien avec le concept de genre de l’époque. 
+        La question du genre est souvent abordée dans la littérature traditionnelle, mais il est également intéressant et important d'analyser le 
+        rôle du genre dans un texte plus scientifique comme un livre de dissection - d'autant plus que la médecine était à l'époque un domaine masculin.
+      </p>
+      <br>
+      <h3>Contexte historique</h3>
+      <p><strong>History of Publication</strong></p>
+      <p><strong>History of the Author and of Medicine</strong></p>
+      <p><strong>History of the Book Getting to the Regenstein</strong></p>
+      
+      
       <div class="row">
+        
         <div class="col" style="width:80%">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pretium elementum leo, ac luctus lacus venenatis sed. 
           Proin sit amet lorem scelerisque, egestas risus ullamcorper, tristique dolor. Phasellus nisi mauris, faucibus in dui vitae, 
@@ -33,67 +52,50 @@
           orci luctus et ultrices posuere cubilia curae; Aliquam a tellus a tellus pretium ornare nec quis felis. Sed condimentum 
           libero interdum rutrum consequat. Phasellus porta nisi vitae dui dictum consequat.</p>
         </div>
-          <div class="col" style="width:20%">
-            <div class="w3-container">
-              <img class="hover-opacity img-fluid" src="../Images/SCRC Dissecion/Cover.png" style="cursor:zoom-in; width: 200px"
-              onclick="document.getElementById('modal01').style.display='block'">
+
+        <div class="col" style="width:20%">
+          <div class="w3-container">
+            <img class="hover-opacity img-fluid" src="../Images/SCRC Dissecion/Cover.png" style="cursor:zoom-in; width: 200px"
+            onclick="document.getElementById('modal01').style.display='block'">
             
-              <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
-                <span class="w3-button w3-black w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+            <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+              <span class="w3-button w3-black w3-hover-red w3-xlarge w3-display-topright">&times;</span>
                 <div class="w3-modal-content w3-animate-zoom">
                   <img src="../Images/SCRC Dissecion/Cover.png" style="width:100%">
                 </div>
-              </div>
+            </div>
           </div>
-          </div>
-          </div>
+        </div>
 
+      </div>
 
-        <div class="container-fluid" style="width: 400px; margin-left: 15px; margin-bottom: 15px;">
+      <div class="container-fluid" style="width: 400px; margin-left: 15px; margin-bottom: 15px;">
         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="100000">
-              <img src="../Images/baby_pig.jpg" class="d-block w-100 book-accordion">
+              <a href="/Images/SCRC%20Dissecion/Letter1.png" target=”_blank”><img src="../Images/SCRC Dissecion/Letter1.png" class="book-image hover-opacity"></a>
               <div class="carousel-caption">Caption 1</div>
             </div>
             <div class="carousel-item" data-bs-interval="100000">
-              <img src="../Images/baby_hippo.jpg" class="d-block w-100 book-accordion">
+              <a href="/Images/SCRC%20Dissecion/Letter2.png" target=”_blank”><img src="../Images/SCRC Dissecion/Letter2.png" class="book-image hover-opacity"></a>
               <div class="carousel-caption">Caption 2</div>
             </div>
-            <div class="carousel-item" data-bs-interval="100000">
-              <img src="../Images/baby_puppy.jpg" class="d-block w-100 book-accordion">
-              <div class="carousel-caption">Caption 3</div>
-            </div>
-            <div class="carousel-item" data-bs-interval="100000">
-              <img src="../Images/baby_kitten.jpg" class="d-block w-100 book-accordion">
-              <div class="carousel-caption">Caption 4</div>
-            </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <button class="carousel-control-prev btn-dark" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <button class="carousel-control-next btn-dark" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
         </div>
       </div>
 
-      <h1>Text 2</h1>
-      <a href="https://catalog.lib.uchicago.edu/vufind/Record/1266737?sid=62460245" class="bold-maroon-link">Chirurgie françoise. Avec plusiers figures des instrumens necessaires pour l'operation manuelle.</a> 
-      <p>Proin ac risus odio. Integer a dui hendrerit, dictum tellus sit amet, viverra nunc. Ut vulputate rhoncus ornare. Cras 
-        consectetur justo a libero maximus pulvinar. Vestibulum in lobortis est. Vestibulum nec efficitur felis, vitae rhoncus 
-        nibh. Integer nec euismod nisl. Ut turpis velit, eleifend nec massa pretium, eleifend posuere dolor. Sed ut posuere arcu, 
-        in egestas orci. Nullam gravida eu diam eu laoreet. Fusce id erat a ipsum tempor tristique in ac justo. Nulla facilisi. 
-        Fusce elementum ex eu ante rutrum laoreet. Donec laoreet enim velit, sit amet iaculis ex consectetur quis. Nulla facilisi. 
-        Aliquam id justo eu ante rutrum convallis.</p> 
     </div>
     <!--Footer-->
     <div id="footer-placeholder"></div>
