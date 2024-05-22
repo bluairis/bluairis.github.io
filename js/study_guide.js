@@ -49,6 +49,11 @@ document.addEventListener('DOMContentLoaded', () => {
         let newCol3 = document.createElement("td");
         newCol3.innerHTML = element.children[4].children[1].children[1].innerHTML;
         document.getElementById("row"+index).appendChild(newCol3)
+
+        //repeat for col 4
+        let newCol4 = document.createElement("td");
+        newCol4.innerHTML = element.children[4].children[6].children[1].innerHTML + " x " + element.children[4].children[7].children[1].innerHTML + " x " + element.children[4].children[8].children[1].innerHTML;
+        document.getElementById("row"+index).appendChild(newCol4)
       });
     };
 });
